@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/TimDAnderson/gif-Maker/issues"
   },
-  "homepage": "https://github.com/TimDAnderson/gif-Maker#readme"
+  "homepage": "https://github.com/TimDAnderson/gif-Maker#readme",
+  "dependencies": {
+    "aws-sdk": "^2.835.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
