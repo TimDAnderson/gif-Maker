@@ -2,4 +2,6 @@
 
 This is a simple web application that converts any video file to a .gif.
 
-[web sequence diagram - please click me](https://github.com/TimDAnderson/gif-Maker/files/6339488/_gif_Maker.pdf)
+![image](https://user-images.githubusercontent.com/71040019/115314223-a04c0600-a129-11eb-8f77-51ecab8132d0.png)
+
+
