@@ -1,0 +1,19 @@
+{
+  "name": "gif-maker",
+  "version": "1.0.0",
+  "description": "gif file creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimDAnderson/gif-Maker.git"
+  },
+  "author": "Tim Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimDAnderson/gif-Maker/issues"
+  },
+  "homepage": "https://github.com/TimDAnderson/gif-Maker#readme"
+}
