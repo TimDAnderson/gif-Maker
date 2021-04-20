@@ -5,8 +5,8 @@ const port = 3000
 const fs = require('fs')
 const multer = require('multer');
 const AWS = require('aws-sdk');
-const s3Info = require('./private');
-const model = require('./model');
+const s3Info = require('../private');
+const model = require('../model');
 
 
 //defining keys for S3 bucket
@@ -47,7 +47,7 @@ var storage = multer.diskStorage({
 
 var upload = multer({dest:'uploads/'});
 
-app.use(express.static('./client'))
+app.use(express.static('./public'))
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -83,5 +83,5 @@ app.post('/vidUpload', upload.single('file'), (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Gif Maker app listening at http://localhost:${port}`)
 })
