@@ -5,8 +5,8 @@ const port = 3000
 const fs = require('fs')
 const multer = require('multer');
 const AWS = require('aws-sdk');
-const s3Info = require('../private');
-const model = require('../model');
+const s3Info = require('./private');
+const model = require('./model');
 
 
 //defining keys for S3 bucket
